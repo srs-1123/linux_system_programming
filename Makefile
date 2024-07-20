@@ -1,6 +1,7 @@
 PROGRAM=hello
 OBJS=$(PROGRAM).o
 SRCS=$(OBJS:%.O=%.C)
+CC=gcc
 CFLAGS=-Wall -g
 LDFLAGS=
 LDLIBS=
